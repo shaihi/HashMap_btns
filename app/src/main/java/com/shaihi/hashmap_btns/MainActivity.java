@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         etKey = findViewById(R.id.etKey);
         etValue = findViewById(R.id.etValue);
         btnAdd = findViewById(R.id.btnAdd);
+        //Needed to add a comment here
         btnClear = findViewById(R.id.btnClear);
         llButtons = findViewById(R.id.llButtons);
         btnAdd.setOnClickListener(new View.OnClickListener() {
